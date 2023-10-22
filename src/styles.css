@@ -1,0 +1,18 @@
+
+.book{
+ background-image: url("../src/assets/hoja.jpg");
+}
+
+.somber{
+    box-shadow: 3px 3px 2px 3px black;
+}
+
+.table{
+    background-image: url("../src/assets/tablita.jpg");
+}
+
+.border{
+    
+    box-shadow: 4px 4px 5px 3px ;
+}
+
