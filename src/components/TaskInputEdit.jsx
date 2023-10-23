@@ -39,7 +39,7 @@ export const TaskInputEdit = ({ editTaskEnd, t, task }) => {
         <Grid container  sx={{ display: 'flex', width: '430px', justifyContent: 'center' }}>
           <form onSubmit={ onFormSubmitEdit }>
           <Grid item sx={{ width: '300px' }}>
-         <TextField sx={{ height: '40px'}} type="text" label='Tarea' placeholder="Ingresa una tarea" fullWidth name="tareaEdit" onChange={ (event) => onInputChangeEdit(event) } value={ formState } />
+         <TextField sx={{ height: '40px'}} type="text" placeholder="Modificar tarea" fullWidth name="tareaEdit" onChange={ (event) => onInputChangeEdit(event) } value={ formState } />
          </Grid>
          </form>
         
